@@ -5,10 +5,10 @@
 </head>
 <body>
 <?php
-require_once('config.php');
+require_once('assets/config.php');
 
 // url om de klanten op te halen
-$url = "https://administratie.digitalefactuur.nl/api/$ACCOUNT_NUMBER/$API_KEY/producten&products_id=1234";
+$url = "https://administratie.digitalefactuur.nl/api/$ACCOUNT_NUMBER/$API_KEY/producten";
 
 
 $ch = curl_init();

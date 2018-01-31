@@ -1,11 +1,11 @@
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css">
-<?xml-stylesheet href="style.xls"?>
+<link rel="stylesheet" type="text/css" href="<?php echo $cssstylepath ?>">
+<?xml-stylesheet href="<?php echo $xmlstylepath ?>"?>
 </head>
 <body>
 <?php
-require_once('config.php');
+require_once('assets/config.php');
 // url om de klant te verwijderen
 $url = "https://administratie.digitalefactuur.nl/api/$ACCOUNT_NUMBER/PASS/factuur_download&facturen_id=55924&download_type=base64";
 

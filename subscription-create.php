@@ -1,11 +1,11 @@
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css">
-<?xml-stylesheet href="style.xls"?>
+<link rel="stylesheet" type="text/css" href="<?php echo $cssstylepath ?>">
+<?xml-stylesheet href="<?php echo $xmlstylepath ?>"?>
 </head>
 <body>
 <?php
-require_once('config.php');
+require_once('assets/config.php');
 // abonnement aanmaken PHP (bestaande klant: klant_id meegeven)
 $url = "https://administratie.digitalefactuur.nl/api/$ACCOUNT_NUMBER/$API_KEY/abonnement_aanmaken"; // abonnement_updaten
 $xml = "
