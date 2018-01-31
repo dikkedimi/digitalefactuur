@@ -1,0 +1,140 @@
+<style>
+/* div {
+  border: 1px #000 solid;
+  float:left;
+  clear:right;
+  background-color:#fff;
+  padding:5px;
+} */
+document{
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  min-width:780px;
+
+}
+klant {
+  display:block;
+  clear:both;
+  float:left;
+  clear:right;
+  border:1px solid #F00;
+  padding:5px;
+  width:780px;
+  min-width:780-px;
+}
+id {
+  display:block;
+  clear:both;
+  float:left;
+  clear:right;
+  border:1px solid #0F0;
+}
+relatienummer{
+
+}
+btw_nummer{
+
+}
+kvk_nummer{
+
+}
+type{
+  display:block;
+  clear:both;
+  float:left;
+  clear:right;
+  border:1px solid #FF0;
+}
+naam{
+  display:block;
+  clear:both;
+  float:left;
+  clear:left;
+  border:1px solid #00F;
+}
+email{
+  display:block;
+  clear:both;
+  float:left;
+  clear:left;
+  border:1px solid #00F;
+}
+adres{
+
+}
+postcode{
+
+}
+plaats{
+
+}
+faxnummer{
+
+}
+land{
+
+}
+rekeningnummer{
+
+}
+tenaamstelling{
+
+}
+automatische_incasso{
+
+}
+mandaat_kenmerk{
+
+}
+mandaat_datum{
+
+}
+soort{
+
+}
+iban{
+
+}
+bic{
+
+}
+voorletters{
+
+}
+tussenvoegsel{
+
+}
+achternaam{
+
+}
+aanhef{
+
+}
+contactpersoon_naam{
+
+}
+contactpersoon_afdeling{
+
+}
+contactpersoon_email{
+
+}
+telefoonnummer{
+
+}
+mobiel{
+
+}
+contactpersoon {
+  display:block;
+  clear:both;
+  float:right;
+  clear:left;
+  border:1px solid #00F;
+}
+contactpersoon:id {
+  background-color: #F0F;
+}
+</style>
